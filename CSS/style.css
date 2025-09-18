@@ -48,7 +48,50 @@ p {
 
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed ;
+  background-attachment: fixed;
   filter: brightness(1.5);
   filter: blur(1.5);
+}
+/* span is a inline elements that takes onky the specific height weight of the characters written. */
+span {
+  background-color: rgb(137, 43, 43);
+  width: 200px;
+  height: 200px;
+  display: block;
+}
+
+.block {
+  width: 200px;
+  background-color: teal;
+}
+
+.b_2 {
+  display: inline;
+  display: none;
+}
+
+.fa-solid {
+  color: rgb(83, 201, 60);
+}
+
+.shadow {
+  color: rgba(220, 20, 60, 0.745);
+  height: 200px;
+  width: 200px;
+  box-shadow: 4px 2px 4px orange;
+}
+
+.text {
+  text-shadow: 2px 4px 5px red;
+}
+
+.parent {
+  font-size: 200px;
+  color: rgb(254, 255, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: aliceblue;
+}
+
+.childern {
+  background: inherit;
 }
